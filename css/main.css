@@ -1,0 +1,108 @@
+
+body {
+    height           : auto;
+    min-height       : 100%;
+    background-color : #fbfbfb;
+    font-size        : 16px;
+}
+
+body > main.wrapper {
+    overflow-x     : hidden;
+    -ms-overflow-x : hidden;
+}
+
+body > header.nav {
+
+}
+
+body header.nav .nav-bar {
+
+}
+
+body > header.nav .logo {
+
+}
+
+.title {
+
+}
+
+.title.title-a {
+
+}
+
+.section {
+
+}
+
+.section.hero {
+
+}
+
+.section.hero.hero-a {
+
+}
+
+.section.portfolio {
+
+}
+
+.section.portfolio.portfolio-a {
+
+}
+
+.section.experience {
+
+}
+
+.section.experience.experience-a {
+
+}
+
+.section.contact {
+
+}
+
+.section.contact.contact-a {
+
+}
+
+.section.footer {
+
+}
+
+.section.footer.footer-a {
+
+}
+
+.card {
+
+}
+
+.card .title {
+
+}
+
+.card .date {
+
+}
+
+.card .summary {
+
+}
+
+.card .footer {
+
+}
+
+.card .images {
+
+}
+
+.card.card-a {
+
+}
+
+.card.card-b {
+
+}
