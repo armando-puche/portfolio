@@ -5,6 +5,7 @@
 		<title>
 			Armando Puche desarrollador frontend
 		</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon"
 		      type="image/png"
 		      href="images/favicon.png">
@@ -14,40 +15,40 @@
 		      href="css/main-colors.css">
 	</head>
 	<body>
+		<header class="nav">
+			<figure class="logo">
+				<picture>
+					<source srcset="images/logo-h-white.webp"
+					        type="image/webp">
+					<img src="images/logo-h-white.png"
+					     title="Logotipo"
+					     alt="Descripción del logotipo">
+				</picture>
+			</figure>
+			<nav class="nav-bar">
+				<ol>
+					<li>
+						<a href="#portafolio"
+						   title="Portafolio">
+							Portafolio
+						</a>
+					</li>
+					<li>
+						<a href="#experiencia"
+						   title="Experiencia">
+							Experiencia
+						</a>
+					</li>
+					<li>
+						<a href="#trabajemos-juntos"
+						   title="Trabajemos juntos">
+							Trabajemos juntos
+						</a>
+					</li>
+				</ol>
+			</nav>
+		</header>
 		<main class="wrapper">
-			<header class="nav">
-				<figure class="logo">
-					<picture>
-						<source srcset="images/logo-h.webp"
-						        type="image/webp">
-						<img src="images/logo-h.png"
-						     title="Logotipo"
-						     alt="Descripción del logotipo">
-					</picture>
-				</figure>
-				<nav class="nav-bar">
-					<ol>
-						<li>
-							<a href="#portafolio"
-							   title="Portafolio">
-								Portafolio
-							</a>
-						</li>
-						<li>
-							<a href="#experiencia"
-							   title="Experiencia">
-								Experiencia
-							</a>
-						</li>
-						<li>
-							<a href="#trabajemos-juntos"
-							   title="Trabajemos juntos">
-								Trabajemos juntos
-							</a>
-						</li>
-					</ol>
-				</nav>
-			</header>
 			<section class="section hero hero-a">
 				<header>
 					<h1 class="title">
@@ -56,7 +57,7 @@
 							Armando Puche
 						</strong>
 						<br/>
-						Desarrollador web especialista en
+						Desarrollador web, especialista en
 						<br/>
 						<strong>
 							HTML5, CSS3 y Javascript.
@@ -73,7 +74,8 @@
 					</picture>
 				</figure>
 			</section>
-			<section class="section portfolio portfolio-a" id="portafolio">
+			<section class="section portfolio portfolio-a"
+			         id="portafolio">
 				<header>
 					<h2 class="title title-a">
 						Portfolio
@@ -84,31 +86,34 @@
 					</h2>
 				</header>
 				<article class="card card-a">
-					<header>
-						<h3 class="title">
-							Platzi videos
-							<br/>
-							<small>
-								React Native / React
-							</small>
-						</h3>
-					</header>
-					<p class="date">
-						<small>
-							<time datetime="2020-04-17T18:00Z">
+					<div class="half-col">
+						<header>
+							<h3 class="title">
 								<strong>
-									Fecha:
+									Platzi videos
 								</strong>
-								17/04/2020
-							</time>
-						</small>
-					</p>
-					<p class="summary">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores cum delectus dicta
-						doloribus ea hic id non obcaecati, reiciendis? At eveniet ipsam neque nesciunt repellendus saepe
-						sed, similique soluta?
-					</p>
-					<footer class="footer">
+								<br/>
+								<small>
+									React Native / React
+								</small>
+							</h3>
+						</header>
+						<p class="date">
+							<small>
+								<time datetime="2020-04-17T18:00Z">
+									<strong>
+										Fecha:
+									</strong>
+									17/04/2020
+								</time>
+							</small>
+						</p>
+						<p class="summary">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi asperiores cum delectus dicta
+							doloribus ea hic id non obcaecati, reiciendis? At eveniet ipsam neque nesciunt repellendus saepe
+							sed, similique soluta?
+						</p>
+						<footer class="footer">
 						<p>
 							<small>
 								<strong>
@@ -120,18 +125,22 @@
 							</small>
 						</p>
 					</footer>
-					<figure class="image">
-						<picture>
-							<source srcset="images/project-demo-01.webp"
-							        type="image/webp">
-							<img src="images/project-demo-01.jpg"
-							     title="Mockup diseño web con React Native"
-							     alt="Mockup diseño web con React Native">
-						</picture>
-					</figure>
+					</div>
+					<div class="half-col">
+						<figure class="image">
+							<picture>
+								<source srcset="images/project-demo-01.webp"
+								        type="image/webp">
+								<img src="images/project-demo-01.jpg"
+								     title="Mockup diseño web con React Native"
+								     alt="Mockup diseño web con React Native">
+							</picture>
+						</figure>
+					</div>
 				</article>
 			</section>
-			<section class="section experience experience-a" id="experiencia">
+			<section class="section experience experience-a"
+			         id="experiencia">
 				<header>
 					<h2 class="title title-a">
 						Más sobre mi experiencia
@@ -153,7 +162,9 @@
 					</figure>
 					<header>
 						<h3 class="title">
-							Nombre del evento
+							<strong>
+								Nombre del evento
+							</strong>
 							<br/>
 							<small>
 								País / provincia
@@ -161,8 +172,10 @@
 						</h3>
 					</header>
 					<p class="summary">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis doloribus laboriosam modi
-						perspiciatis quam quod ratione sit vitae? Ad cum dolores eligendi error, modi omnis quaerat quasi
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid corporis doloribus laboriosam
+						modi
+						perspiciatis quam quod ratione sit vitae? Ad cum dolores eligendi error, modi omnis quaerat
+						quasi
 						ratione tempore.
 					</p>
 					<footer class="footer">
@@ -174,7 +187,8 @@
 					</footer>
 				</article>
 			</section>
-			<section  class="section contact contact-a" id="trabajemos-juntos">
+			<section class="section contact contact-a"
+			         id="trabajemos-juntos">
 				<header>
 					<h2 class="title title-a">
 						¿Creamos algo juntos?
@@ -185,8 +199,12 @@
 					</h2>
 				</header>
 				<form action="javascript:void(0);">
-					<label for="email" hidden></label>
-					<input required id="email" type="email" placeholder="Déjame tu email">
+					<label for="email"
+					       hidden></label>
+					<input required
+					       id="email"
+					       type="email"
+					       placeholder="Déjame tu email">
 					<button type="submit">
 						Enviar
 					</button>

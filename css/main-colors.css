@@ -1,3 +1,24 @@
 body {
-    background-color: #fbfbfb;
+    background-color : #fbfbfb;
+}
+
+body > header.nav {
+    background-color : #444058;
+}
+
+body > header.nav .nav-bar {
+    color : #ffffff;
+}
+
+body > header.nav .nav-bar ol li > a {
+    color : #ffffff;
+}
+
+.section.hero.hero-a {
+    background-color : #444058;
+    color            : white;
+}
+
+.card {
+    border-color : #d3d3d3;
 }
